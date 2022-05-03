@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melnsils</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="info-bar">
+        <div class="container">
+            <div class="info-wrapper">
+                <div class="temperature">
+                    <div class="temperature__weather">
+                        <img class="temperature__img" src="img/sun.svg" alt="weather icon">
+                        <span class="temperature__info">
+                            6° C
+                        </span> —
+                        <span class="temperature__info">
+                            9° C
+                        </span> 
+                    </div>
+                    <div class="temperature__water">
+                        <img class="temperature__img" src="img/water.svg" alt="weather icon">
+                        <span class="temperature__info">
+                            5° C
+                        </span>
+                    </div>
+                </div>
+                <div class="contacts">
+                    <a class="contacts__link" href="mailto:info@melnsils.lv">
+                        <img src="img/mail.svg" alt="mail icon">
+                        info@melnsils.lv
+                    </a>
+                    <a class="contacts__link" href="tel:+37128605606">
+                        <img src="img/phone.svg" alt="phone icon">
+                        +371 28 605 606
+                    </a>
+                </div>
+                <div class="socials">
+                    <a class="socials__link" href="#" target="blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a class="socials__link" href="#" target="blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="languages">
+                    <button class="languages__btn">
+                        lat
+                    </button> |
+                    <button class="languages__btn">
+                        eng
+                    </button> |
+                    <button class="languages__btn">
+                        rus
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="navigation">
+                <a class="logo" href="#">
+                    <img src="img/logo.svg" alt="Melnsils">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                kempings
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                viesu nams
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                krogs
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">
+                                aktivitātes
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="menu-opener">
+                        <img src="img/mobile-opener.svg" alt="">
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="offer">
+                    <h1 class="offer__title">
+                        Neliels H1 virsraksts vai slogans
+                    </h1>
+                    <p class="offer__text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+                        takimata sanctus est Lorem ipsum dolor sit amet.
+                    </p>
+                    <a class="btn btn--ghost offer__btn" href="#">
+                        rezervēt
+                    </a>
+                </div>
+                <img class="hero-img" src="img/hero-symbol.svg" alt="Symbol">
+            </div>
+        </div>
+    </section>
+    <section class="nav-strip">
+        <div class="container container-full">
+            <nav class="nav-wrapper">
+                <div class="nav-wrapper__item">
+                    <a class="nav-wrapper__link" href="#">
+                        <img src="img/kemping.svg" alt="Kempings">
+                        <p class="nav-wrapper__link-text">
+                            Kempings
+                        </p>
+                    </a>
+                </div>
+                <div class="nav-wrapper__item">
+                    <a class="nav-wrapper__link" href="#">
+                        <img src="img/nams.svg" alt="Viesu nams">
+                        <p class="nav-wrapper__link-text">
+                            Viesu nams
+                        </p>
+                    </a>
+                </div>
+                <div class="nav-wrapper__item">
+                    <a class="nav-wrapper__link" href="#">
+                        <img src="img/krogs.svg" alt="Krogs">
+                        <p class="nav-wrapper__link-text">
+                            Krogs
+                        </p>
+                    </a>
+                </div>
+                <div class="nav-wrapper__item">
+                    <a class="nav-wrapper__link" href="#">
+                        <img src="img/aktivitates.svg" alt="Aktivitātes">
+                        <p class="nav-wrapper__link-text">
+                            Aktivitātes
+                        </p>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="video">
+        <div class="video__overlay">
+            <button class="video__btn">
+                <img src="img/play-icon.png" alt="Play video">
+            </button>
+        </div>
+    </section>
+    <section class="camping">
+        <div class="container-fluid">
+            <div class="about">
+                <div class="about__content">
+                    <h2 class="about__title">
+                        Kempings
+                    </h2>
+                    <p class="about__text">
+                        Romantiski namiņi oriģinālā dizaina risinājumā pašā jūras krastā vai Slīteres mežu ielokā. 
+                        Izvēlies, kurš no namiņiem piemērotāks tavai atpūtai!Teritorijā pieejamas arī telts un treileru vietas, 
+                        zemnīcas un simtgadīga pirts. Ir iespējas arī aktīvai atpūtai – supi, kajaki, makšķernieku laivas, 
+                        velosipēdi un galda teniss ir pieejams katram kempinga apmeklētājam. 
+                        Un pastaiga mežā var pārvērsties par aizrautīgu nodarbi lasot ogas un sēnes.
+                    </p>
+                    <div class="btns-wrapper">
+                        <a class="btn" href="#">
+                            Lasīt vairāk
+                        </a>
+                        <a class="btn btn--ghost" href="#">
+                            Rezervēt
+                        </a>
+                    </div>
+                </div>
+                <div class="about__image about__image--camping">
+                    <img class="about-icon about-icon--left" src="img/camping.svg" alt="camping icon">
+                    <img src="img/image-icon.svg" alt="icon">
+                </div>
+                <div class="btns-wrapper btns-wrapper--mobile">
+                    <a class="btn" href="#">
+                        Lasīt vairāk
+                    </a>
+                    <a class="btn btn--ghost" href="#">
+                        Rezervēt
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="guest-house">
+        <div class="container-fluid">
+            <div class="about about--left">
+                <div class="about__image about__image--guest-house">
+                    <img class="about-icon about-icon--right" src="img/guest-house-icon.svg" alt="guest-house icon">
+                    <img src="img/image-icon.svg" alt="icon">
+                </div>
+                <div class="btns-wrapper btns-wrapper--mobile">
+                    <a class="btn" href="#">
+                        Lasīt vairāk
+                    </a>
+                    <a class="btn btn--ghost" href="#">
+                        Rezervēt
+                    </a>
+                </div>
+                <div class="about__content">
+                    <h2 class="about__title">
+                        Viesu nams
+                    </h2>
+                    <p class="about__text">
+                        Vēsturisku notikumu iedvesmoti un mūsdienīgi labiekārtoti numuriņi ar visām ērtībām pilnīgai 
+                        relaksācijai dabā. Šajā vietā īpaši tiek cienīts miers, jūra un klusums, 
+                        bet šurp varat doties arī tad, ja skaistā apkārtnē vēlaties nosvinēt kādu sev 
+                        svarīgu dzīves notikumu vai baudīt mierīgas brīvdienas divatā vai ģimenes un draugu lokā.
+                    </p>
+                    <div class="btns-wrapper">
+                        <a class="btn" href="#">
+                            Lasīt vairāk
+                        </a>
+                        <a class="btn btn--ghost" href="#">
+                            Rezervēt
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pub">
+        <div class="container-fluid">
+            <div class="about">
+                <div class="about__content">
+                    <h2 class="about__title">
+                        KROGS
+                    </h2>
+                    <p class="about__text">
+                        Nobaudiet mūsu šefpavāra pagatavotos izcilos ēdienus. 
+                        Garda maltīte, jūras gaiss, saulriets kopā ar mīļoto cilvēku vai ģimeni - nu kas
+                        var būt labāks par šo? Melnsila krogs atvērts visa gada garumā un dod iespēju 
+                        atpūtniekiem ieturēt gardas maltītes.
+                    </p>
+                    <div class="btns-wrapper">
+                        <a class="btn" href="#">
+                            Lasīt vairāk
+                        </a>
+                        <a class="btn btn--ghost" href="#">
+                            Rezervēt
+                        </a>
+                    </div>
+                </div>
+                <div class="about__image about__image--pub">
+                    <img class="about-icon about-icon--left" src="img/pub-icon.svg" alt="camping icon">
+                    <img src="img/image-icon.svg" alt="icon">
+                </div>
+                <div class="btns-wrapper btns-wrapper--mobile">
+                    <a class="btn" href="#">
+                        Lasīt vairāk
+                    </a>
+                    <a class="btn btn--ghost" href="#">
+                        Rezervēt
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="corporate">
+        <div class="container-fluid">
+            <div class="about about--left">
+                <div class="about__image about__image--corporate">
+                    <img class="about-icon about-icon--right" src="img/corporate-icon.svg" alt="corporate icon">
+                    <img src="img/image-icon.svg" alt="icon">
+                </div>
+                <div class="btns-wrapper btns-wrapper--mobile">
+                    <a class="btn" href="#">
+                        Lasīt vairāk
+                    </a>
+                    <a class="btn btn--ghost" href="#">
+                        Rezervēt
+                    </a>
+                </div>
+                <div class="about__content">
+                    <h2 class="about__title">
+                        Korporatīvajiem
+                    </h2>
+                    <p class="about__text">
+                        Melnsils ir ne tikai vieta, kur baudīt mieru un klusumu pie pašas jūras, 
+                        bet arī svinēt dzīvi. Melnsila teritorija piemērota mazām un lielām svinībām, 
+                        kolektīva saliedēšanas un korporatīvajiem pasākumiem līdz pat 100 personām. 
+                        Cilvēkiem, kuri aizraujas ar aktīvu dzīvesveidu var piedalīties aktivitātēs, 
+                        kas ir apkārtnē un pašā Melnsilā. Zivju kūpināšanas meistarklase, pirtnieka pakalpojumi ir tikai 
+                        daļa no aktivitātēm, ko varat baudīt Melnsilā.
+                    </p>
+                    <div class="btns-wrapper">
+                        <a class="btn" href="#">
+                            Lasīt vairāk
+                        </a>
+                        <a class="btn btn--ghost" href="#">
+                            Rezervēt
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <h2 class="feedback__title">
+                Klientu atsauksmes
+            </h2>
+            <div class="feedback__icon">
+                <img src="img/feedback-icon.svg" alt="symbol">
+            </div>
+            <p class="feedback__text">
+                Lieliska vieta! Noteikti iesaku! Bijām ar draugiem ar teltīm - superīgi atpūtāmies. 
+                Viss nepieciešamais pieejams - labierīcības, dušas, kafejnīca un ļoti atsaucīgs personāls. 
+                Un ļoti skaista vieta!! Noteikti tur došos vēl!
+            </p>
+            <h4 class="feedback__name">
+                Laura
+            </h4>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="container-fluid container-full">
+            <div class="questions__content">
+                <div class="map">
+                    <h2 class="map__title">
+                        kur mēs atrodamies?
+                    </h2>
+                </div>
+                <form class="questions-form" action="#">
+                    <h2 class="questions-form__title">
+                        Radušies jautājumi
+                    </h2>
+                    <input class="questions-form__input" type="text" placeholder="Vārds" required>
+                    <input class="questions-form__input" type="email" placeholder="E-pasts" required>
+                    <input class="questions-form__input" type="tel" placeholder="Tālrunis">
+                    <textarea class="questions-form__input questions-form__input--textarea" placeholder="Jautājums, komentārs..."></textarea>
+                    <button class="questions-form__btn">
+                        Sūtīt
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a class="logo" href="#">
+                        <img src="img/logo.svg" alt="Melnsils">
+                    </a>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                </div>
+                <div class="footer__stream">
+                    <h3 class="footer__title">
+                        Mēs tiešsaistē
+                    </h3>
+                    <img src="img/stream-img.png" alt="stream">
+                </div>
+                <nav class="footer-menu">
+                    <h3 class="footer__title">
+                        Lapas karte
+                    </h3>
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">
+                                Kempings
+                            </a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">
+                                Viesu nams
+                            </a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">
+                                Krogs
+                            </a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">
+                                Korporatīvajiem
+                            </a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">
+                                Par mums
+                            </a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="#">
+                                Aktivitātes
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-links">
+                        <h3 class="footer__title">
+                            Kontaktinformācija
+                        </h3>
+                        <a class="footer__contacts-link" href="mailto:info@melnsils.lv">
+                            <img src="img/mail.svg" alt="mail icon">
+                            info@melnsils.lv
+                        </a>
+                        <a class="footer__contacts-link" href="tel:+37128605606">
+                            <img src="img/phone.svg" alt="phone icon">
+                            +371 28 605 606
+                        </a>
+                    </div>
+                    <div class="socials-wrapper">
+                        <h3 class="footer__title">
+                            Sekojiet mums
+                        </h3>
+                        <div class="socials">
+                            <a class="socials__link socials__link-footer" href="#" target="blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a class="socials__link socials__link-footer" href="#" target="blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <div class="footer__copyright-content">
+                    <p>
+                        Visas tiesības aizsargātas “Melnsils”, SIA. 2021.         
+                    </p>
+                    <p>
+                        Mājas lapu izstrādāja GRANDEM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
